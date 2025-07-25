@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist",          // make sure this matches your Vite build output
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
